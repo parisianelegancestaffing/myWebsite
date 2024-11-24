@@ -332,12 +332,12 @@ header {
             padding: 0;
         }
 
-        nav .logo img {
-        height: 100px;
-    }
-
         .nav-links {
             display: none;
+        }
+
+        h1 {
+            font-size: 42px;
         }
     }
 }
