@@ -332,6 +332,10 @@ header {
             padding: 0;
         }
 
+        nav .logo img {
+        height: 100px;
+    }
+
         .nav-links {
             display: none;
         }
