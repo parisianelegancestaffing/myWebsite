@@ -158,6 +158,8 @@ document.addEventListener('DOMContentLoaded', function () {
             message: document.getElementById('message').value,
         }
 
+        console.log(params);
+
         try {
             emailjs.send("service_9ssb8lx", "template_9pqk1qi", params).then(function (message) {
                 document.getElementById('emailForm').reset();
