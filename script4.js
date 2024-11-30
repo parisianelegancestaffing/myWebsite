@@ -135,6 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     openButton.addEventListener('click', () => {
         modal.style.display = 'flex'; // Show modal
+        modal.scrollIntoView();
     });
 
     closeButton.addEventListener('click', () => {
