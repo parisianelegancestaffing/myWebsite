@@ -482,6 +482,7 @@ header {
         margin: 0;
         box-sizing: border-box;
         border: 1px solid rgb(var(--details-color));
+        gap: 10px;
     }
 
     .accordion:hover,
