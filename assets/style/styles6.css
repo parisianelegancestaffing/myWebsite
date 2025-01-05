@@ -360,6 +360,7 @@ header {
 }
 
 .about-text {
+    width: 100%;
     max-width: 70%;
     text-align: justify;
     padding: 20px;
@@ -405,6 +406,7 @@ header {
 /* Services Section */
 
 .services-content {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
