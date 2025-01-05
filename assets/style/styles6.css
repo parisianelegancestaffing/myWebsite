@@ -717,6 +717,16 @@ input:-webkit-autofill:active {
     clear: both;
 }
 
+#partners .services-content img {
+    max-height: 150px !important;
+    max-width: 220px !important;
+}
+
+#partners .services-content {
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media only screen and (max-width: 992px) {
 
     #imageCarousel,
